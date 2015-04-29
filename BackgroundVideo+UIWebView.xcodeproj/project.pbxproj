@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		945F51841AF0E608001AC5AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F51831AF0E608001AC5AF /* AppDelegate.swift */; };
+		945F51861AF0E608001AC5AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F51851AF0E608001AC5AF /* ViewController.swift */; };
+		945F51891AF0E608001AC5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945F51871AF0E608001AC5AF /* Main.storyboard */; };
+		945F518B1AF0E608001AC5AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945F518A1AF0E608001AC5AF /* Images.xcassets */; };
+		945F518E1AF0E608001AC5AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 945F518C1AF0E608001AC5AF /* LaunchScreen.xib */; };
+		945F519A1AF0E608001AC5AF /* BackgroundVideo_UIWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945F51991AF0E608001AC5AF /* BackgroundVideo_UIWebViewTests.swift */; };
+		945F51A41AF0E61B001AC5AF /* railway.gif in Resources */ = {isa = PBXBuildFile; fileRef = 945F51A31AF0E61B001AC5AF /* railway.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		945F51941AF0E608001AC5AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 945F51761AF0E608001AC5AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 945F517D1AF0E608001AC5AF;
+			remoteInfo = "BackgroundVideo+UIWebView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		945F517E1AF0E608001AC5AF /* BackgroundVideo+UIWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BackgroundVideo+UIWebView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945F51821AF0E608001AC5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945F51831AF0E608001AC5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		945F51851AF0E608001AC5AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		945F51881AF0E608001AC5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		945F518A1AF0E608001AC5AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		945F518D1AF0E608001AC5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		945F51931AF0E608001AC5AF /* BackgroundVideo+UIWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BackgroundVideo+UIWebViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945F51981AF0E608001AC5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945F51991AF0E608001AC5AF /* BackgroundVideo_UIWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundVideo_UIWebViewTests.swift; sourceTree = "<group>"; };
+		945F51A31AF0E61B001AC5AF /* railway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = railway.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		945F517B1AF0E608001AC5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945F51901AF0E608001AC5AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		945F51751AF0E608001AC5AF = {
+			isa = PBXGroup;
+			children = (
+				945F51801AF0E608001AC5AF /* BackgroundVideo+UIWebView */,
+				945F51961AF0E608001AC5AF /* BackgroundVideo+UIWebViewTests */,
+				945F517F1AF0E608001AC5AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		945F517F1AF0E608001AC5AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				945F517E1AF0E608001AC5AF /* BackgroundVideo+UIWebView.app */,
+				945F51931AF0E608001AC5AF /* BackgroundVideo+UIWebViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		945F51801AF0E608001AC5AF /* BackgroundVideo+UIWebView */ = {
+			isa = PBXGroup;
+			children = (
+				945F51831AF0E608001AC5AF /* AppDelegate.swift */,
+				945F51851AF0E608001AC5AF /* ViewController.swift */,
+				945F51871AF0E608001AC5AF /* Main.storyboard */,
+				945F518A1AF0E608001AC5AF /* Images.xcassets */,
+				945F518C1AF0E608001AC5AF /* LaunchScreen.xib */,
+				945F51A31AF0E61B001AC5AF /* railway.gif */,
+				945F51811AF0E608001AC5AF /* Supporting Files */,
+			);
+			path = "BackgroundVideo+UIWebView";
+			sourceTree = "<group>";
+		};
+		945F51811AF0E608001AC5AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				945F51821AF0E608001AC5AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		945F51961AF0E608001AC5AF /* BackgroundVideo+UIWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				945F51991AF0E608001AC5AF /* BackgroundVideo_UIWebViewTests.swift */,
+				945F51971AF0E608001AC5AF /* Supporting Files */,
+			);
+			path = "BackgroundVideo+UIWebViewTests";
+			sourceTree = "<group>";
+		};
+		945F51971AF0E608001AC5AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				945F51981AF0E608001AC5AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		945F517D1AF0E608001AC5AF /* BackgroundVideo+UIWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945F519D1AF0E608001AC5AF /* Build configuration list for PBXNativeTarget "BackgroundVideo+UIWebView" */;
+			buildPhases = (
+				945F517A1AF0E608001AC5AF /* Sources */,
+				945F517B1AF0E608001AC5AF /* Frameworks */,
+				945F517C1AF0E608001AC5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BackgroundVideo+UIWebView";
+			productName = "BackgroundVideo+UIWebView";
+			productReference = 945F517E1AF0E608001AC5AF /* BackgroundVideo+UIWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		945F51921AF0E608001AC5AF /* BackgroundVideo+UIWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 945F51A01AF0E608001AC5AF /* Build configuration list for PBXNativeTarget "BackgroundVideo+UIWebViewTests" */;
+			buildPhases = (
+				945F518F1AF0E608001AC5AF /* Sources */,
+				945F51901AF0E608001AC5AF /* Frameworks */,
+				945F51911AF0E608001AC5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				945F51951AF0E608001AC5AF /* PBXTargetDependency */,
+			);
+			name = "BackgroundVideo+UIWebViewTests";
+			productName = "BackgroundVideo+UIWebViewTests";
+			productReference = 945F51931AF0E608001AC5AF /* BackgroundVideo+UIWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		945F51761AF0E608001AC5AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Ryan;
+				TargetAttributes = {
+					945F517D1AF0E608001AC5AF = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					945F51921AF0E608001AC5AF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 945F517D1AF0E608001AC5AF;
+					};
+				};
+			};
+			buildConfigurationList = 945F51791AF0E608001AC5AF /* Build configuration list for PBXProject "BackgroundVideo+UIWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 945F51751AF0E608001AC5AF;
+			productRefGroup = 945F517F1AF0E608001AC5AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				945F517D1AF0E608001AC5AF /* BackgroundVideo+UIWebView */,
+				945F51921AF0E608001AC5AF /* BackgroundVideo+UIWebViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		945F517C1AF0E608001AC5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945F51A41AF0E61B001AC5AF /* railway.gif in Resources */,
+				945F51891AF0E608001AC5AF /* Main.storyboard in Resources */,
+				945F518E1AF0E608001AC5AF /* LaunchScreen.xib in Resources */,
+				945F518B1AF0E608001AC5AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945F51911AF0E608001AC5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		945F517A1AF0E608001AC5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945F51861AF0E608001AC5AF /* ViewController.swift in Sources */,
+				945F51841AF0E608001AC5AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		945F518F1AF0E608001AC5AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945F519A1AF0E608001AC5AF /* BackgroundVideo_UIWebViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		945F51951AF0E608001AC5AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 945F517D1AF0E608001AC5AF /* BackgroundVideo+UIWebView */;
+			targetProxy = 945F51941AF0E608001AC5AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		945F51871AF0E608001AC5AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945F51881AF0E608001AC5AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		945F518C1AF0E608001AC5AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				945F518D1AF0E608001AC5AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		945F519B1AF0E608001AC5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		945F519C1AF0E608001AC5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		945F519E1AF0E608001AC5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BackgroundVideo+UIWebView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		945F519F1AF0E608001AC5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BackgroundVideo+UIWebView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		945F51A11AF0E608001AC5AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BackgroundVideo+UIWebViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundVideo+UIWebView.app/BackgroundVideo+UIWebView";
+			};
+			name = Debug;
+		};
+		945F51A21AF0E608001AC5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BackgroundVideo+UIWebViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundVideo+UIWebView.app/BackgroundVideo+UIWebView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		945F51791AF0E608001AC5AF /* Build configuration list for PBXProject "BackgroundVideo+UIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945F519B1AF0E608001AC5AF /* Debug */,
+				945F519C1AF0E608001AC5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		945F519D1AF0E608001AC5AF /* Build configuration list for PBXNativeTarget "BackgroundVideo+UIWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945F519E1AF0E608001AC5AF /* Debug */,
+				945F519F1AF0E608001AC5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		945F51A01AF0E608001AC5AF /* Build configuration list for PBXNativeTarget "BackgroundVideo+UIWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945F51A11AF0E608001AC5AF /* Debug */,
+				945F51A21AF0E608001AC5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 945F51761AF0E608001AC5AF /* Project object */;
+}
